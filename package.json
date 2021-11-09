@@ -7,7 +7,9 @@
   "author": "Nicolas Walcker",
   "license": "MIT",
   "scripts": {
-    "fix-styles":  "stylelint --fix **/*.{css,scss}"
+    "start": "yarn run dev",
+    "dev": "parcel index.html",
+    "fix-styles": "stylelint --fix **/*.{css,scss}"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
@@ -22,6 +24,10 @@
     "stylelint-config-recommended": "^6.0.0",
     "stylelint-config-recommended-scss": "^5.0.1",
     "stylelint-order": "^5.0.0",
-    "stylelint-prettier": "^2.0.0"
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-scss": "^4.0.0"
+  },
+  "dependencies": {
+    "parcel": "^2.0.1"
   }
 }
