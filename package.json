@@ -9,7 +9,7 @@
   "scripts": {
     "start": "yarn run dev",
     "dev": "parcel index.html",
-    "fix-styles": "stylelint --fix **/*.{css,scss}"
+    "fix-styles": "stylelint --fix src/**/*.{css,scss}"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
